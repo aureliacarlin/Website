@@ -1,0 +1,88 @@
+body {
+    background-image: url("pics/wood.jpg");
+}
+
+.title {
+    height: 150px;
+    text-align: center;
+    background-color:rgb(51,25,19);
+    color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    font-family: Courgette;
+    
+}
+
+.titles {
+    font-size: 50px;
+}
+
+#testimony {
+    width: 250px;
+    float: right;
+    position: relative;
+    bottom: 120px;
+    right: 10px;
+}
+
+
+.intro {
+    width: 200px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    left: 100px;
+    background-color: rgb(16, 88, 112);
+    font-family: Mukta;
+    
+}
+
+.welcome {
+    color: white;
+    font-size: 25px;
+    
+}
+
+.instruct {
+    font-size: 20px;
+    color: white;
+}
+
+.pics {
+  padding: 20px;
+  margin: auto;
+  background-color: tan;
+  text-align: center;
+  margin: 10px;
+  
+  
+}
+.show {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    float: right;
+    align-items: center;
+    position: relative;
+    bottom: 400px;
+    
+}
+
+.email {
+    float: left;
+    position: relative;
+    z-index: 1;
+    color: white;
+    width: 300px;
+    bottom: 120px;
+}
+
+.contact {
+    position: relative;
+    right: 290px;
+    width: 200px;
+    color: white;
+    background: rgb(16, 88, 112);
+    font-family: Mukta;
+}
